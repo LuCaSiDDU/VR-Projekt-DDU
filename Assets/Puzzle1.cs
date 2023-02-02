@@ -14,6 +14,10 @@ public class Puzzle1 : MonoBehaviour
         {
             n++;
         }
+        else if (button == puzzle1[0])
+        {
+            n = 1;
+        }
         else
         {
             n = 0;
